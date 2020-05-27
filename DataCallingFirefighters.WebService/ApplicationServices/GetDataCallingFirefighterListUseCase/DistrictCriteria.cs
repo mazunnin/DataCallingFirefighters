@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Text;
 
-namespace DataCallingFirefighters.ApplicationServices.GetParkingTerminalListUseCase
+namespace DataCallingFirefighters.ApplicationServices.GetDataCallingFirefighterListUseCase
 {
     public class DistrictCriteria : ICriteria<DataCallingFirefighter>
     {

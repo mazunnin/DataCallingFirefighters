@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace DataCallingFirefighters.WebService.Migrations
 {
-    [DbContext(typeof(DutaCallingFirefighter))]
+    [DbContext(typeof(DutaCallingFirefighterContext))]
     partial class DutaCallingFirefighterModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using DataCallingFirefighters.DomainObjects;
-using DataCallingFirefighters.ApplicationServices.GetParkingTerminalListUseCase;
+using DataCallingFirefighters.ApplicationServices.GetDataCallingFirefighterListUseCase;
 using DataCallingFirefighters.InfrastructureServices.Presenters;
 
 namespace DataCallingFirefighters.InfrastructureServices.Controllers

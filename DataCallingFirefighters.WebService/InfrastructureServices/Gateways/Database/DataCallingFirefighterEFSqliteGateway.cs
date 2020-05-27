@@ -11,9 +11,9 @@ namespace DataCallingFirefighters.InfrastructureServices.Gateways.Database
 {
     public class DataCallingFirefighterEFSqliteGateway : IDataCallingFirefighterDatabaseGateway
     {
-        private readonly DutaCallingFirefighter _dataCallingFirefighterContext;
+        private readonly DutaCallingFirefighterContext _dataCallingFirefighterContext;
 
-        public DataCallingFirefighterEFSqliteGateway(DutaCallingFirefighter dataCallingContext)
+        public DataCallingFirefighterEFSqliteGateway(DutaCallingFirefighterContext dataCallingContext)
             => _dataCallingFirefighterContext = dataCallingContext;
 
         public async Task<DataCallingFirefighter> GetDataCallingFirefighter(long id)

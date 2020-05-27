@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using DataCallingFirefighters.ApplicationServices.Interfaces;
 
-namespace DataCallingFirefighters.ApplicationServices.GetParkingTerminalListUseCase
+namespace DataCallingFirefighters.ApplicationServices.GetDataCallingFirefighterListUseCase
 {
     public interface IGetDataCallingFirefighterListUseCase : IUseCase<GetDataCallingFirefighterListUseCaseRequest, GetDataCallingFirefighterListUseCaseResponse>
     {

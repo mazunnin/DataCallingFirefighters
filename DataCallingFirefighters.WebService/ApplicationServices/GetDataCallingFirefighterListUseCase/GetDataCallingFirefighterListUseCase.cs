@@ -4,7 +4,7 @@ using DataCallingFirefighters.DomainObjects;
 using DataCallingFirefighters.DomainObjects.Ports;
 using DataCallingFirefighters.ApplicationServices.Ports;
 
-namespace DataCallingFirefighters.ApplicationServices.GetParkingTerminalListUseCase
+namespace DataCallingFirefighters.ApplicationServices.GetDataCallingFirefighterListUseCase
 {
     public class GetDataCallingFirefighterListUseCase : IGetDataCallingFirefighterListUseCase
     {

@@ -6,12 +6,12 @@ using System.Text;
 
 namespace DataCallingFirefighters.InfrastructureServices.Gateways.Database
 {
-    public class DutaCallingFirefighter : DbContext
+    public class DutaCallingFirefighterContext : DbContext
     {
         public DbSet<DataCallingFirefighter> DataCallingFirefighters { get; set; }
 
 
-        public DutaCallingFirefighter(DbContextOptions options)
+        public DutaCallingFirefighterContext(DbContextOptions options)
             : base(options)
         { }
 

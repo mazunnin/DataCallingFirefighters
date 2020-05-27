@@ -5,7 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using DataCallingFirefighters.InfrastructureServices.Gateways.Database;
 using Microsoft.EntityFrameworkCore;
-using DataCallingFirefighters.ApplicationServices.GetParkingTerminalListUseCase;
+using DataCallingFirefighters.ApplicationServices.GetDataCallingFirefighterListUseCase;
 using DataCallingFirefighters.ApplicationServices.Ports.Gateways.Database;
 using DataCallingFirefighters.ApplicationServices.Repositories;
 using DataCallingFirefighters.DomainObjects.Ports;
@@ -24,7 +24,7 @@ namespace DataCallingFirefighters.WebService
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<DutaCallingFirefighter>(opts => 
+            services.AddDbContext<DutaCallingFirefighterContext>(opts => 
                 opts.UseSqlite($"Filename={System.IO.Path.Combine(System.Environment.CurrentDirectory, "DataCallingFirefighters.db")}")
             );
 

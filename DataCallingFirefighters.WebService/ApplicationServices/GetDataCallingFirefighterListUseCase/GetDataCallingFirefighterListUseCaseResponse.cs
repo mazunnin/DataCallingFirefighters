@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DataCallingFirefighters.ApplicationServices.GetParkingTerminalListUseCase
+namespace DataCallingFirefighters.ApplicationServices.GetDataCallingFirefighterListUseCase
 {
     public class GetDataCallingFirefighterListUseCaseResponse : UseCaseResponse
     {

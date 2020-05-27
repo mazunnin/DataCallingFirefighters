@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace DataCallingFirefighters.WebService.Migrations
 {
-    [DbContext(typeof(DutaCallingFirefighter))]
+    [DbContext(typeof(DutaCallingFirefighterContext))]
     [Migration("20200526174027_Initial")]
     partial class Initial
     {

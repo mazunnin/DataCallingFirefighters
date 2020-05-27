@@ -1,4 +1,4 @@
-﻿using DataCallingFirefighters.ApplicationServices.GetParkingTerminalListUseCase;
+﻿using DataCallingFirefighters.ApplicationServices.GetDataCallingFirefighterListUseCase;
 using System.Net;
 using Newtonsoft.Json;
 using DataCallingFirefighters.ApplicationServices.Ports;
